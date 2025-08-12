@@ -34,7 +34,7 @@ content:
       - layout: top-middle # Type of content section (list/text)
         title: "Data-Driven Crime Forecasting in Memphis: Leveraging AI for Predictive Analysis"
         description: | # this will include new lines to allow paragraphs
-          <div style="text-align:center;">
+          <div style="text-align:center; font-size:1rem;">
             Currently researching how artificial intelligence can predict crime rates in Memphis, Tennessee. This project utilizes Python and its libraries to make an AI prediction model. Thesis will be completed by December 2025 to acquire an undergraduate Honors Minor at MTSU. 
           </div>
       - layout: top-middle
@@ -46,13 +46,13 @@ content:
             icon: fab fa-github
             url: https://github.com/Midoriacti/Final_Project
         description: | # this will include new lines to allow paragraphs
-          <div style="text-align:center;">
+          <div style="text-align:center; font-size:1rem;">
             This project was completed for a Python summer course at MTSU. This game was completed within four weeks alongside two other students. It utilizes the Python libraries <mark>Pygame</mark> and <mark>Pygame Widgets</mark>.
           </div>
       - layout: top-middle # Type of content section (list/text)
         title: Attendance Calculator
         description: | # this will include new lines to allow paragraphs
-          <div style="text-align:center;">
+          <div style="text-align:center; font-size:1rem;">
             Created an attendance calculator with another student to receive honors credit in a non-honors course. This calculator allowed for the professor to determine a student's final grade.
           </div>
   - title: Experience # Title for the section
