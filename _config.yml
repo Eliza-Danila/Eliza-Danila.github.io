@@ -72,8 +72,8 @@ content:
         description: | # this will include new lines to allow paragraphs
           This project was completed for a Python summer course at MTSU. This game was completed within four weeks alongisde two other students and it utilizes the Python libraries <mark> Pygame <mark> and <mark> Pygame Widgets <mark>.
     
-    # layout: list # Type of content section (list/text)
-    content:
+        layout: list # Type of content section (list/text)
+    # content:
         title: Undergraduate Honors Thesis
         # link_text: Project Website
         additional_links:
@@ -108,8 +108,8 @@ content:
 
             - Connected with professionals in various leadership positions.
     
-    # layout: list # Type of content section (list/text)
-    content:         
+        layout: list # Type of content section (list/text)
+    # content:         
         title: HACK-MT
         # link: boringcompany.com
         # link_text: boringcompany.com
@@ -129,8 +129,8 @@ content:
 
             - Collaborated with 10+ students to complete the project efficiently
 
-    # layout: list # Type of content section (list/text)
-    content:      
+        layout: list # Type of content section (list/text)
+    # content:      
         title: Nashville Innovation Summit
         # link: boringcompany.com
         # link_text: boringcompany.com
@@ -147,8 +147,8 @@ content:
             
             - Collaborated with 25+ other volunteers to ensure attendees were supported during the event
 
-    # layout: list # Type of content section (list/text)
-    content:      
+        layout: list # Type of content section (list/text)
+    # content:      
         title: Girls Who Code
         # link: boringcompany.com
         # link_text: boringcompany.com
