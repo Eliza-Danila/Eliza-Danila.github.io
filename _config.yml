@@ -71,7 +71,9 @@ content:
         #   This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
         description: | # this will include new lines to allow paragraphs
           This project was completed for a Python summer course at MTSU. This game was completed within four weeks alongisde two other students and it utilizes the Python libraries <mark> Pygame <mark> and <mark> Pygame Widgets <mark>.
-
+    
+    layout: list # Type of content section (list/text)
+    content:
         title: Undergraduate Honors Thesis
         # link_text: Project Website
         additional_links:
@@ -98,13 +100,16 @@ content:
         # quote: >
         #   Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
         description: | # this will include new lines to allow paragraphs
-            Attended a week long honors course that enriched students' leadership skills.
+            - Attended a week long honors course that enriched students' leadership skills.
 
-            Collaborated with other students to complete various projects and strengthen our teamworking skills.
 
-            Connected with professionals in various leadership positions.
-            
-        
+            - Collaborated with other students to complete various projects and strengthen our teamworking skills.
+
+
+            - Connected with professionals in various leadership positions.
+    
+    layout: list # Type of content section (list/text)
+    content:         
         title: HACK-MT
         # link: boringcompany.com
         # link_text: boringcompany.com
@@ -113,14 +118,19 @@ content:
         # quote: >
         #   Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
         description: | # this will include new lines to allow paragraphs
-            Sourced and designed assets for a top-town military training simulator within 36 hours. 
-            
-            Designed a presentation to showcase the model alongside other team leads of the project
-            
-            Primary lead of coding project received a scholarship award of $1000
-            
-            Collaborated with 10+ students to complete the project efficiently
+            - Sourced and designed assets for a top-town military training simulator within 36 hours. 
 
+            
+            - Designed a presentation to showcase the model alongside other team leads of the project
+
+            
+            - Primary lead of coding project received a scholarship award of $1000
+            
+
+            - Collaborated with 10+ students to complete the project efficiently
+
+    layout: list # Type of content section (list/text)
+    content:      
         title: Nashville Innovation Summit
         # link: boringcompany.com
         # link_text: boringcompany.com
@@ -129,27 +139,34 @@ content:
         # quote: >
         #   Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
         description: | # this will include new lines to allow paragraphs
-            Interacted and registered 100+ attendees for a two-day event
-            
-            Networked with multiple technology companies and employers discussing internship opportunities and making connections
-            
-            Collaborated with 25+ other volunteers to ensure attendees were supported during the event
+            - Interacted and registered 100+ attendees for a two-day event
 
+            
+            - Networked with multiple technology companies and employers discussing internship opportunities and making connections
+
+            
+            - Collaborated with 25+ other volunteers to ensure attendees were supported during the event
+
+    layout: list # Type of content section (list/text)
+    content:      
         title: Girls Who Code
         # link: boringcompany.com
         # link_text: boringcompany.com
         sub_title: Online Certifications
-        caption: July 2022 = August 2022
+        caption: July 2022 - August 2022
         # quote: >
         #   Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
         description: | # this will include new lines to allow paragraphs
             Studied different technical languages such as Python, HTML, JavaScript, and CSS
+
             
-            Created 10 small programs and 3 websites to gain programming knowledge and receive certifications
+            - Created 10 small programs and 3 websites to gain programming knowledge and receive certifications
+
             
-            Attended weekly meetings to receive instructions about moving forward with projects or necessary changes
+            - Attended weekly meetings to receive instructions about moving forward with projects or necessary changes
+
             
-            Collaborated with 10+ students to discuss project goals and details
+            - Collaborated with 10+ students to discuss project goals and details
 
 
   - title: Education # Title for the section
@@ -162,11 +179,13 @@ content:
         # quote: >
         #   Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
         description: | # this will include new lines to allow paragraphs
-          Concentration in Professional Computer Science	
+          - Concentration in Professional Computer Science	
+
           
-          Minor in University Honors
+          - Minor in University Honors
+
           
-          Buchanan Transfer Fellowship Scholarship, 2 years
+          - Buchanan Transfer Fellowship Scholarship, 2 years
 
 
   # - title: A Little More About Me
