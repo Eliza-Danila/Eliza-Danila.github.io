@@ -36,19 +36,19 @@ content:
         link: https://github.com/Midoriacti/Final_Project
         link_text: Untitled Potato Game Github
         additional_links:
-          - title:  sproogen/modern-resume-theme
+          - title:  Unititled Potato Project
             icon: fab fa-github
-            url: github.com/sproogen/modern-resume-theme
+            url: https://github.com/Midoriacti/Final_Project
         description: | # this will include new lines to allow paragraphs
-          This project was completed for a Python summer course at MTSU. This game was completed within four weeks alongisde two other students and it utilizes the Python libraries <mark> Pygame <mark> and <mark> Pygame Widgets <mark>.
+          This project was completed for a Python summer course at MTSU. This game was completed within four weeks alongisde two other students and it utilizes the Python libraries <mark>Pygame</mark> and <mark>Pygame Widgets</mark>.
     
-      - layout: list # Type of content section (list/text)
+      - layout: top-middle # Type of content section (list/text)
     # content:
         title: Undergraduate Honors Thesis
-        additional_links:
-          - title:  sproogen/modern-resume-theme
-            icon: fab fa-github
-            url: github.com/sproogen/modern-resume-theme
+        # additional_links:
+        #   - title:  sproogen/modern-resume-theme
+        #     # icon: fab fa-github
+        #     url: github.com/sproogen/modern-resume-theme
         description: | # this will include new lines to allow paragraphs
           Currently researching how Artificial Intelligence can predict crime rates in Memphis, Tennessee. Thesis will be completed by December 2025 to aquire an Honors Minor at MTSU. 
 
@@ -120,6 +120,8 @@ content:
           - Minor in University Honors
           
           - Buchanan Transfer Fellowship Scholarship, 2 years
+
+          - Institute of Leadership Excellence
 
 
 # Footer
