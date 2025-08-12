@@ -53,7 +53,7 @@ content:
         title: Attendance Calculator
         description: | # this will include new lines to allow paragraphs
           <div style="text-align:center; font-size:1.4rem;">
-            Created an attendance calculator with another student to receive honors credit in a non-honors course. This calculator allowed for the professor to determine a student's final grade.
+            Created an attendance calculator with another student to receive honors credit in a non-honors course. This calculator allowed for the professor to determine each student's final grade.
           </div>
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
@@ -63,11 +63,11 @@ content:
         sub_title: Student
         caption: May 2025
         description: | # this will include new lines to allow paragraphs
-            - Attended a week long honors course from 9:00 AM to 6:00 PM that enriched students' leadership skills.
+            - Attended a week long honors course from 9:00 AM to 6:00 PM that enriched students' leadership skills
 
-            - Collaborated with other students to complete various projects and strengthen our teamworking skills.
+            - Collaborated with other students to complete various projects and strengthen our teamworking skills
 
-            - Connected with professionals in various leadership positions.
+            - Connected with professionals in various leadership positions
     
       - layout: left # Type of content section (list/text)
         # content:         
@@ -75,7 +75,7 @@ content:
         sub_title: Art and Asset Team Lead
         caption: January 2025
         description: | # this will include new lines to allow paragraphs
-            - Sourced and designed assets for a top-town military training simulator within 36 hours. 
+            - Sourced and designed assets for a top-town military training simulator within 36 hours
          
             - Designed a presentation to showcase the model alongside other team leads of the project
 
