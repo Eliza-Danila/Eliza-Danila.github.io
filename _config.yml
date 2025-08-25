@@ -38,11 +38,11 @@ content:
             Currently researching how artificial intelligence can predict crime rates in Memphis, Tennessee. This project utilizes Python and its libraries to make an AI prediction model. Thesis will be completed by December 2025 to acquire an undergraduate Honors Minor at MTSU. 
           </div>
       - layout: top-middle
-        title: Untitled Potato Project
+        title: Untitled Potato Game
         link: https://github.com/Midoriacti/Final_Project
         link_text: Untitled Potato Game Github
         additional_links:
-          - title:  Unititled Potato Project
+          - title:  Unititled Potato Game
             icon: fab fa-github
             url: https://github.com/Midoriacti/Final_Project
         description: | # this will include new lines to allow paragraphs
