@@ -35,7 +35,7 @@ content:
         title: "Data-Driven Crime Forecasting in Memphis: Leveraging AI for Predictive Analysis"
         description: | # this will include new lines to allow paragraphs
           <div style="text-align:center; font-size:1.4rem;">
-            Currently researching how artificial intelligence can predict crime rates in Memphis, Tennessee. This project utilizes Python and its libraries to make an AI prediction model. Thesis will be completed by December 2025 to acquire an undergraduate Honors Minor at MTSU. 
+            Researched how artificial intelligence can predict crime rates in Memphis, Tennessee. This project utilized Python and its libraries to make an AI prediction model. Thesis was completed in December 2025 to acquire an undergraduate Honors Minor at MTSU. 
           </div>
       - layout: top-middle
         title: Untitled Potato Game
