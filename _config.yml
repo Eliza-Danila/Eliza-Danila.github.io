@@ -1,144 +1,29 @@
-# Site
-repository: sproogen/resume-theme
-favicon: images/favicon.ico
+# Dependencies
+markdown:         kramdown
+highlighter:      rouge
 
-# Content configuration version
-version: 2
+# Permalinks
+permalink:        pretty
+# relative_permalinks: true
 
-# Personal info
-name: Eliza Danila
-title: Honors Computer Science Student
-email: eliza.danila04@gmail.com
-website: https://github.com/Eliza-Danila
+# Setup
+title:            Eliza Danila
+tagline:          'Portfolio'
+description:      'An honors computer science student at MTSU.'
+url:              https://eliza-danila.github.io/
+baseurl:          /
 
-# Dark Mode (true/false/never)
-darkmode: false
+author:
+  name:           'Eliza Danila'
+  url:            https://www.linkedin.com/in/eliza-danila-8bb984246/
 
-# Social links
-github_username:  Eliza-Danila
-linkedin_username: eliza-danila-8bb984246
+paginate:         5
 
+# Custom vars
+version:          2.1.0
 
-# About Section
-# about_title: About Me
-about_profile_image: profile_pic.jpeg
-about_content: | # this will include new lines to allow paragraphs
-  Hi, my name's Eliza and I am an honors computer science student at MTSU.
-
-  I am most skilled in: <mark>Python</mark> and <mark>Research</mark>
-
-content:
-  - title: Projects # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: top-middle # Type of content section (list/text)
-        title: "Data-Driven Crime Forecasting in Memphis: Leveraging AI for Predictive Analysis"
-        description: | # this will include new lines to allow paragraphs
-          <div style="text-align:center; font-size:1.4rem;">
-            Researched how artificial intelligence can predict crime rates in Memphis, Tennessee. This project utilized Python and its libraries to make an AI prediction model. Thesis was completed in December 2025 to acquire an undergraduate Honors Minor at MTSU. 
-          </div>
-      - layout: top-middle
-        title: Untitled Potato Game
-        link: https://github.com/Midoriacti/Final_Project
-        link_text: Untitled Potato Game Github
-        additional_links:
-          - title:  Unititled Potato Game
-            icon: fab fa-github
-            url: https://github.com/Midoriacti/Final_Project
-        description: | # this will include new lines to allow paragraphs
-          <div style="text-align:center; font-size:1.4rem;">
-            This project was completed for a Python summer course at MTSU. This game was completed within four weeks alongside two other students. It utilizes the Python libraries <mark>Pygame</mark> and <mark>Pygame Widgets</mark>.
-          </div>
-      - layout: top-middle # Type of content section (list/text)
-        title: Attendance Calculator
-        description: | # this will include new lines to allow paragraphs
-          <div style="text-align:center; font-size:1.4rem;">
-            Created an attendance calculator with another student to receive honors credit in a non-honors course. This calculator allowed for the professor to determine each student's final grade.
-          </div>
-  - title: Experience # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: left
-        title: Institude of Leadership Excellence
-        sub_title: Student
-        caption: May 2025
-        description: | # this will include new lines to allow paragraphs
-            - Attended a week long honors course from 9:00 AM to 6:00 PM that enriched students' leadership skills
-
-            - Collaborated with other students to complete various projects and strengthen our teamworking skills
-
-            - Connected with professionals in various leadership positions
-    
-      - layout: left # Type of content section (list/text)
-        # content:         
-        title: HACK-MT
-        sub_title: Art and Asset Team Lead
-        caption: January 2025
-        description: | # this will include new lines to allow paragraphs
-            - Sourced and designed assets for a top-town military training simulator within 36 hours
-         
-            - Designed a presentation to showcase the model alongside other team leads of the project
-
-            - Primary lead of coding project received a scholarship award
-
-            - Collaborated with 10+ students to complete the project efficiently
-
-      - layout: left # Type of content section (list/text)
-        # content:      
-        title: Nashville Innovation Summit
-        sub_title: Volunteer
-        caption: September 2024, August 2025
-        description: | # this will include new lines to allow paragraphs
-            - Interacted and registered 100+ attendees for a two-day event
-
-            - Networked with multiple technology companies and employers discussing internship opportunities and making connections
-            
-            - Collaborated with 25+ other volunteers to ensure attendees were supported during the event
-
-      - layout: left # Type of content section (list/text)
-        # content:      
-        title: Girls Who Code
-        sub_title: Online Certifications
-        caption: July 2022 - August 2022
-        description: | # this will include new lines to allow paragraphs
-            - Studied different technical languages such as Python, HTML, JavaScript, and CSS
-            
-            - Created 10 small programs and 3 websites to gain programming knowledge and receive certifications
-            
-            - Attended weekly meetings to receive instructions about moving forward with projects or necessary changes
-            
-            - Collaborated with 10+ students to discuss project goals and details
-
-
-  - title: Education # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: left
-        title: Middle Tennessee State University
-        caption: May 2026
-        sub_title: Bachelor of Science in Computer Science
-        description: | # this will include new lines to allow paragraphs
-          - Concentration in Professional Computer Science	
-          
-          - Minor in University Honors
-          
-          - Buchanan Transfer Fellowship Scholarship, 2 years
-
-          - Institute of Leadership Excellence
-
-          - Secretary of Competitive Coding Club, 1 semester
-
-
-# Footer
-footer_show_references: true
-# references_title: References on request (Override references text)
-
-# Build settings
-remote_theme: sproogen/resume-theme
-
-sass:
-  sass_dir: _sass
-  style: compressed
+github:
+  repo:           https://github.com/Eliza-Danila/Eliza-Danila.github.io
 
 plugins:
- - jekyll-seo-tag
+  - jekyll-paginate
