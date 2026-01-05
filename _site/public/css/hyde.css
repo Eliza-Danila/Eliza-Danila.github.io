@@ -178,6 +178,11 @@ a.sidebar-nav-item:focus {
   color: #272327;
 }
 
+/* Background Color */
+body.theme-base-0g {
+  background-color: #bbb9bb !important; /* override poole.css */
+}
+
 /* Profile Picture Image */
 img{
   border-radius: 50%;
