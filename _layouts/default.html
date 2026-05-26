@@ -1,16 +1,57 @@
 <!DOCTYPE html>
 <html lang="en-us">
 
-  {% include head.html %}
+<head>
+  <link href="https://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
 
-  <body class="theme-base-0g">
+  <title>Eliza Danila &middot; {{ page.title }}</title>
 
-    {% include sidebar.html %}
+  <!-- CSS -->
+  <link rel="stylesheet" href="/public/css/poole.css">
+  <link rel="stylesheet" href="/public/css/syntax.css">
+  <link rel="stylesheet" href="/public/css/hyde.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700|Abril+Fatface">
 
-    <div class="content container">
-      {{ content }}
-      
+  <!-- Icons -->
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/public/apple-touch-icon-144-precomposed.png">
+  <link rel="shortcut icon" href="/public/favicon.ico">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <!-- RSS -->
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
+</head>
+
+<body class="theme-base-0g">
+
+  <div class="sidebar">
+    <div class="container sidebar-sticky">
+      <div class="sidebar-about">
+        <img src="/profile_pic.jpeg" width="300" alt="Profile Picture">
+        <a href="https://www.linkedin.com/feed/" class="fa fa-linkedin"></a>
+        <a href="https://github.com/Eliza-Danila" class="fa fa-github"></a>
+        <h1>Eliza Danila</h1>
+        <p class="lead">A computer science graduate student at MTSU.</p>
+      </div>
+
+      <nav class="sidebar-nav">
+        <a class="sidebar-nav-item {% if page.url == '/' %}active{% endif %}" href="{{ '/' | relative_url }}">Home</a>
+        <a class="sidebar-nav-item {% if page.url contains 'projects' %}active{% endif %}"
+          href="{{ '/projects/' | relative_url }}">Projects</a>
+        <a class="sidebar-nav-item" href="{{ '/Resume - Eliza Danila.pdf' | relative_url }}">Resume</a>
+        <span class="sidebar-nav-item">Currently v2.1.0</span>
+      </nav>
+
+      <p>&copy; 2025. All rights reserved.</p>
     </div>
+  </div>
 
-  </body>
+  <div class="content container">
+    {{ content }}
+  </div>
+
+</body>
+
 </html>
