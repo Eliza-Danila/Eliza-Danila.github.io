@@ -32,6 +32,10 @@
  * Update the foundational and global aspects of the page.
  */
 
+@view-transition {
+  navigation: auto;
+}
+
 html {
   font-family: "PT Sans", Helvetica, Arial, sans-serif;
 }
